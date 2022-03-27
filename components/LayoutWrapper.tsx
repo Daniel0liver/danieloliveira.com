@@ -17,6 +17,11 @@ interface Props {
 const LayoutWrapper = ({ children }: Props) => {
   const router = useRouter()
 
+  const getPath = () => {
+    const rgx = router.pathname.match(/[a-z A-Z 0-9 -]+/)
+    return !rgx ? '' : rgx[0]
+  }
+
   return (
     <SectionContainer>
       <div className="flex h-screen flex-col justify-between">
@@ -24,10 +29,10 @@ const LayoutWrapper = ({ children }: Props) => {
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between text-xl font-semibold text-primary-color dark:text-primary-color-dark dark:text-primary-color-dark">
-                {`~${router.asPath}`}{' '}
+                {`~/`}{' '}
                 <Typewriter
                   options={{
-                    strings: [],
+                    strings: [getPath()],
                     autoStart: true,
                     loop: true,
                   }}
