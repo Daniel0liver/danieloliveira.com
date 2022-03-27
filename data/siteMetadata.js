@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'The Daniel Oliveira Blog',
   author: 'Daniel Oliveira',
   headerTitle: 'Daniel',
-  description: 'I try to explain with words and code.',
+  description: `I'm trying to get a bit better every day, but failing in most cases XD`,
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
