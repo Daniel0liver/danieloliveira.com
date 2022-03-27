@@ -20,9 +20,13 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       colors: {
+        'background-color': '#1F2023',
+        'primary-color': '#1e90ff',
+        'primary-color-dark': '#FFFF66',
+        'spotify-green': '#1DB954',
         primary: colors.teal,
         //@ts-ignore
         gray: colors.neutral, // TODO: Remove ts-ignore after tw types gets updated to v3

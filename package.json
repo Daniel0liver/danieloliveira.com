@@ -41,6 +41,7 @@
     "sharp": "^0.28.3",
     "smoothscroll-polyfill": "^0.4.4",
     "tailwindcss": "^3.0.18",
+    "typewriter-effect": "^2.18.2",
     "unist-util-visit": "^4.0.0"
   },
   "devDependencies": {
@@ -62,10 +63,10 @@
     "inquirer": "^8.1.1",
     "lint-staged": "^11.0.0",
     "next-remote-watch": "^1.0.0",
-    "socket.io": "^4.4.0",
-    "socket.io-client": "^4.4.0",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.4",
+    "socket.io": "^4.4.0",
+    "socket.io-client": "^4.4.0",
     "typescript": "~4.3.5"
   },
   "lint-staged": {
